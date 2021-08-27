@@ -77,7 +77,7 @@ async def getMeaning(text):
 
 # Initialisation
 
-TOKEN = '1983335411:AAEEtYwPUzBxm1wykQ-BHsM3vnSoNHkh_84'
+TOKEN = 'INSERT TOKEN'
 bot = telepot.aio.Bot(TOKEN)
 loop = asyncio.get_event_loop()
 loop.create_task(MessageLoop(bot, handle).run_forever())
